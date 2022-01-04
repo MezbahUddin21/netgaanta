@@ -267,7 +267,7 @@ ul li{
     overflow: hidden;
     margin-top: -10px;
     border-radius: 10px;
-    background-image: url(/img/about.jpg);
+    background: url(/img/about.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1069,7 +1069,18 @@ ul li{
 
 
   
+  @media (max-width: 1200px) {
+    .explain_section .explain_1st{
+      height: 360px;
+      width: calc(100% / 1);
+      margin-bottom: 40px;
   
+    }
+    .explain_section .explain_2nd{
+      width: calc(100% / 1);
+      padding-left: 0;
+   }
+  }
   @media (max-width: 1196px) {
     .header_1st .main_header{
       margin-top: 15%;
@@ -1094,12 +1105,12 @@ ul li{
   
     }
   }
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     .service_section .service_boxes .service_box{
       width: calc(100% / 1);
   }
   }
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     .team_box .team{
       width: calc(95% / 2);
       margin-bottom: 20px;
@@ -1113,7 +1124,7 @@ ul li{
       width: calc(100% / 2);
     }
   }
-  @media (max-width: 700px) {
+  @media (max-width: 1000px) {
     .features_section .features_box .feature_img{
       display: none;
   }
