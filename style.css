@@ -267,13 +267,9 @@ ul li{
     overflow: hidden;
     margin-top: -10px;
     border-radius: 10px;
-    background: url(/img/about.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 .explain_1st img{
-    display: none;
+    
 }
 
 .explain_section .explain_2nd{
